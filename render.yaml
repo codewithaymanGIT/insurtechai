@@ -1,0 +1,47 @@
+# Render Blueprint: one web service that serves the API and the built site.
+# Render's free disk is wiped on every deploy, so the database lives on Turso
+# (hosted SQLite, free tier). See DEPLOY.md.
+services:
+  - type: web
+    name: insurtechai
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: >-
+      npm ci --include=dev &&
+      npm run build &&
+      node backend/dist/db/migrate.js &&
+      node backend/dist/seed/seed.js --if-empty
+    startCommand: node backend/dist/server.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: NODE_ENV
+        value: production
+      - key: TRUST_PROXY
+        value: "1"
+      - key: AUTH_SECRET
+        generateValue: true
+      - key: APP_ORIGIN
+        sync: false # https://<your-service>.onrender.com, or your own domain
+      - key: DATABASE_URL
+        sync: false # libsql://<db>-<org>.turso.io
+      - key: DATABASE_AUTH_TOKEN
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: SMTP_HOST
+        sync: false
+      - key: SMTP_PORT
+        value: "587"
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false
+      - key: EMAIL_FROM
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: ADMIN_EMAILS
+        sync: false

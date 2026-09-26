@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1789764827358,
+      "tag": "0000_purple_starbolt",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1790192811229,
+      "tag": "0001_auth_and_saved_assessments",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790368152860,
+      "tag": "0002_mfa_signup_devices",
+      "breakpoints": true
+    }
+  ]
+}

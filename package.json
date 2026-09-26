@@ -1,0 +1,26 @@
+{
+  "name": "insurtechai",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "backend",
+    "frontend",
+    "shared"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "seed": "npm run seed --workspace=backend",
+    "build:shared": "npm run build --workspace=shared",
+    "build:backend": "npm run build --workspace=backend",
+    "build:frontend": "npm run build --workspace=frontend",
+    "db:migrate": "npm run db:migrate --workspace=backend",
+    "build": "npm run build:shared && npm run build:backend && npm run build:frontend",
+    "start": "npm run start --workspace=backend",
+    "i18n:extract": "node scripts/extract-strings.mjs",
+    "i18n:build": "node scripts/i18n-build.mjs",
+    "landing:sample": "npm exec --workspace=backend -- tsx ../scripts/gen-landing-sample.ts",
+    "typecheck": "npm run build:shared && npm run typecheck --workspace=backend && npm run typecheck --workspace=frontend",
+    "test": "npm run build:shared && npm run test --workspace=backend && npm run test --workspace=frontend"
+  }
+}

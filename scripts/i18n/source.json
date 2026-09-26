@@ -1,0 +1,3605 @@
+{
+  ", and understand that estimates are not insurance quotes.": [
+    "frontend/src/pages/Welcome.tsx"
+  ],
+  "{amount} a year": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "{amount} for {n} years": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "{amount} of it is third-party cover, which IRDAI fixes by engine size and nobody can discount.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "{amount} rebuild value": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "{amount} voluntary": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "{browser} on {os}": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "{city} rates high for flood and earthquake exposure among the 20 cities this model covers.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "{city} rates high for traffic density and vehicle theft among the 20 cities this model covers.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "{city} rates low for flood and earthquake exposure among the 20 cities this model covers.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "{city} rates low for traffic density and vehicle theft among the 20 cities this model covers.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "{city} rates moderate for flood and earthquake exposure among the 20 cities this model covers.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "{city} rates moderate for traffic density and vehicle theft among the 20 cities this model covers.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "{code} is your InsurTechAI sign-in code": [
+    "backend/src/auth/email.ts"
+  ],
+  "{factor} adds the most to your score: {points} points. {description}": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "{factor} has the largest effect (+{points} points), followed by {second} (+{secondPoints}).": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "{factor} has the largest effect (+{points} points).": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "{factor} is next, adding {points} points.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "{factor} takes {points} points off. {description}": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "{factor}. It adds {points} of your {score} points. {description}": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "{from} → {to} km a year": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "{from}–{to} of {total}": [
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "{km} km a year is well below average.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "{km} km a year means more time on the road and more exposure to accidents.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "{level} cover": [
+    "frontend/src/pages/estimate/Estimate.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "{n} accidents on record. Past accidents are the strongest predictor of future claims.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "{n} answers look unusual next to the others. See \"What an insurer may ask about\".": [
+    "backend/src/engine/riskEngine.ts"
+  ],
+  "{n} claim-free years": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "{n} claims in the last 12 months, above the usual rate.": [
+    "backend/src/engine/fraudEngine.ts"
+  ],
+  "{n} claims in the last 12 months, well above the usual rate. Expect an insurer to ask for claim documents.": [
+    "backend/src/engine/fraudEngine.ts"
+  ],
+  "{n} claims in the last 12 months.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "{n} d ago": [
+    "frontend/src/lib/utils.ts"
+  ],
+  "{n} dependent": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "{n} dependents": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "{n} h ago": [
+    "frontend/src/lib/utils.ts"
+  ],
+  "{n} min ago": [
+    "frontend/src/lib/utils.ts"
+  ],
+  "{n} previous claims on this property.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "{n} previous claims. Each claim also resets your no-claim bonus.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "{n} questions left today": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "{n} recovery codes left.": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "{n} to check": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "{n} traffic violations on record.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "{n} years": [
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx",
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "{n} years behind the wheel.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "{n} years of driving experience. Accident rates drop sharply after the first few years.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "{pct}% off own damage for {n} claim-free years": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "{percent}% higher": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "{percent}% lower": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "{price} less {pct}%": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "{score} out of 100. Points on the right push it up, points on the left bring it down.": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "{test} policies the models never saw, split by risk profile so the same driver can't appear in both training and test data.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "{title}. Estimated saving: {amount} a year.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "{title}. That would save about {amount} a year ({percent}%), and it's high effort. {description}": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "{title}. That would save about {amount} a year ({percent}%), and it's low effort. {description}": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "{title}. That would save about {amount} a year ({percent}%), and it's medium effort. {description}": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "{x}× the portfolio average of {avg}. About one claim every {years} years.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "{x}× your income": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "/ year": [
+    "frontend/src/pages/estimate/Estimate.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "−{amount} a year": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "₹1 crore term insurance premiums by age (2026)": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "₹2.5 lakh to ₹5 lakh": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "₹5 lakh to ₹10 lakh": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "₹9,000 × an age curve (×1.15 at 30, ×4.2 at 60), +25% per family member on floaters": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "0-10k": [
+    "backend/src/services/dashboardService.ts"
+  ],
+  "0.08% of rebuilding value": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "0.95 is the no-claim discount for health and home. Motor uses the no-claim bonus instead.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "1 to 2 years": [
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "shared/src/motor.ts"
+  ],
+  "1–2×/wk": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "100k-250k": [
+    "backend/src/services/dashboardService.ts"
+  ],
+  "10k-25k": [
+    "backend/src/services/dashboardService.ts"
+  ],
+  "2 to 3 years": [
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "shared/src/motor.ts"
+  ],
+  "2-wheeler": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "2.2% of IDV for cars, 2.8% for two-wheelers, 2.6% for commercial vehicles, before the no-claim bonus": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "250k+": [
+    "backend/src/services/dashboardService.ts"
+  ],
+  "25k-50k": [
+    "backend/src/services/dashboardService.ts"
+  ],
+  "3 to 4 years": [
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "shared/src/motor.ts"
+  ],
+  "3+×/wk": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "30 days after your last visit": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "4 to 5 years": [
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "shared/src/motor.ts"
+  ],
+  "5 or more": [
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "5-fold CV deviance": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "500 made-up policyholders generated by the seed script and priced with the same engine visitors use. It shows what an underwriting team would see across a book. None of it is real customer data.": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "50k-100k": [
+    "backend/src/services/dashboardService.ts"
+  ],
+  "6 months to 1 year": [
+    "frontend/src/pages/Methodology.tsx",
+    "shared/src/motor.ts"
+  ],
+  "6 to 12 months": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "A {cc}cc engine is linked to faster driving and costlier repairs.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "A BMI of {bmi} is below the healthy range of 18.5–25.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "A BMI of {bmi} is in the healthy range.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "A BMI of {bmi} is in the obese range, which raises the risk of diabetes, heart disease and joint problems.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "A count of AI questions asked": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "A declared condition usually means medical tests, and may add a loading or an exclusion to the policy.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "A family history of {conditions} raises hereditary risk.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "A few questions about you and what you want to insure. Only the ones that affect this type of cover are shown.": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "A few times a week": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "A fitted anti-theft or tracking device lowers theft risk. Most insurers offer a discount for an ARAI-approved one.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "A higher-value property costs more to repair or rebuild.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "A is rural, F is dense urban": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "A more expensive vehicle costs more to repair or replace.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "A no-claim bonus is claimed, but a claim was also made in the last 12 months. A claim normally resets the bonus to zero, and insurers check this with your previous insurer.": [
+    "backend/src/engine/fraudEngine.ts"
+  ],
+  "A payout for your family if you die": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "A revision was proposed for 2026–27 but hadn't been notified as of April 2026.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "A security system lowers the risk of burglary claims.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "A year without claims usually brings a no-claim discount or bonus at renewal.": [
+    "backend/src/engine/levers.ts"
+  ],
+  "About a day": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "About you": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Above ₹10 lakh": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Above 100%": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Above the usual range": [
+    "frontend/src/components/estimate/BenchmarkBar.tsx"
+  ],
+  "Accident rates are still above average at {age}, and fall through the late twenties.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Accident rates rise again after 70 (you're {age}).": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Accident rates start rising gradually after 60 (you're {age}).": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Accidents you've had": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Account": [
+    "frontend/src/components/shell/AppShell.tsx"
+  ],
+  "Account and security": [
+    "frontend/src/components/shell/AppShell.tsx",
+    "frontend/src/pages/Security.tsx"
+  ],
+  "account and security page": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Accounts": [
+    "frontend/src/pages/insurers/Usage.tsx"
+  ],
+  "Across any policy you hold": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Active {when}": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Add a monitored security system": [
+    "backend/src/engine/levers.ts"
+  ],
+  "Add your annual income to check whether this cover is enough.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Add-ons such as zero depreciation or room-rent waiver": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "After age, smoking is the biggest factor in term-life pricing. Insurers usually charge smokers 40–60% more for the same cover.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "After your email code or Google, also ask for a code from an authenticator app such as Google Authenticator, Microsoft Authenticator or Authy.": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Age": [
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Age {age}": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Age is used the way insurers use it: steadily rising for health and life, and higher for very young and very old drivers.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Age of the building": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Age of vehicle": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Agreed with the insurer": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "AI questions, 24 h": [
+    "frontend/src/pages/insurers/Usage.tsx"
+  ],
+  "AI questions, 7 days": [
+    "frontend/src/pages/insurers/Usage.tsx"
+  ],
+  "Alarm or monitored CCTV": [
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Alarms and monitored CCTV lower burglary risk.": [
+    "backend/src/engine/levers.ts"
+  ],
+  "Alcohol": [
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Alcohol: {level}": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Alcohol: heavy": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Alcohol: moderate": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Alcohol: none": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Alcohol: occasional": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "All": [
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "All policies": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "All premiums shown exclude 18% GST.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Already at the maximum": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Also double-check your answers: some of them look unusual, and an insurer would ask about them.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "Amount": [
+    "frontend/src/components/insurer/Charts.tsx"
+  ],
+  "An ARAI-approved device lowers theft risk, and most insurers give a discount for it.": [
+    "backend/src/engine/levers.ts"
+  ],
+  "An estimate is not a quote.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "An unexpected error occurred.": [
+    "backend/src/api/middleware/errorHandler.ts"
+  ],
+  "and": [
+    "frontend/src/pages/SignIn.tsx",
+    "frontend/src/pages/Welcome.tsx"
+  ],
+  "Annual income": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Annual premium income": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Answer a few questions and your estimate, market comparison and savings will show up here.": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Answers an insurer would check": [
+    "backend/src/engine/riskEngine.ts"
+  ],
+  "Answers an insurer would want to verify": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Answers are based on your own numbers, so get an estimate first.": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Answers explain your estimate. They aren't financial advice or an insurer's decision.": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Anti-theft device fitted": [
+    "backend/src/engine/factors.ts",
+    "frontend/src/pages/estimate/WhatIf.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Any city": [
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "Any risk": [
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "ARAI-approved": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "ARAI-approved anti-theft device fitted": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Area has flooded before": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Area type": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "ArthaEngine, citing IRDAI Handbook (FY 2024-25)": [
+    "frontend/src/lib/insurers.ts"
+  ],
+  "ask": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Ask": [
+    "frontend/src/components/shell/AppShell.tsx",
+    "frontend/src/pages/estimate/Ask.tsx",
+    "frontend/src/pages/estimate/Estimate.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Ask about your estimate": [
+    "frontend/src/components/shell/Marketing.tsx"
+  ],
+  "Ask about your own numbers.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Ask anything about your estimate": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Ask insurers about an anti-theft device discount. An ARAI-approved device usually qualifies.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Asset": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Asthma": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "At {age}, health and mortality risk are below the adult average.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "At {amount} a year, the estimate is above the usual published range of {low}–{high}. The factors below show why.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "At {amount} a year, the estimate is below the usual published range of {low}–{high}.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "At {amount} a year, the estimate is within the usual published range of {low}–{high}.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "At {years} years old, parts wear out and breakdown-related claims become more likely.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "At {years} years old, wiring, plumbing and structure are more likely to fail.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "At a {pct}% marginal rate incl. cess": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "At your income, the rebate already brings tax under the old regime to zero, so the deduction saves nothing.": [
+    "backend/src/engine/taxBenefit.ts"
+  ],
+  "Authenticator-app sign-in, if you turn it on": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Average car insurance premiums by segment (2026)": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Average health insurance cost in India": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Average health insurance premiums in India (2025)": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Average multiplier from the GBM (SHAP) against the GLM's fitted curve.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Average premium": [
+    "frontend/src/pages/insurers/Overview.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Average risk score": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Back to policies": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "Back to website": [
+    "frontend/src/components/shell/AppShell.tsx"
+  ],
+  "Bands: 0–20 very low, 21–40 low, 41–60 moderate, 61–80 high, 81–100 very high.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Bars show the relativity; the line is the 95% confidence interval.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Base": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Base price": [
+    "frontend/src/components/estimate/PremiumLedger.tsx",
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Base rate on the property value": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Basic": [
+    "backend/src/engine/decisionSummary.ts",
+    "frontend/src/lib/utils.ts",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Basic to comprehensive": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Before 18% GST · {amount} including GST": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Before buying, compare real quotes from insurers or an IRDAI-registered web aggregator, and read the policy wording, especially exclusions and waiting periods.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Behaviour": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Below the usual range": [
+    "frontend/src/components/estimate/BenchmarkBar.tsx"
+  ],
+  "BMI {from} → {to}": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Bonus-malus dominates because it already records each driver's claim history. It also explains why young drivers look only moderately risky here: new drivers start at a high bonus-malus level, so part of their age effect is carried by that variable instead.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Bonus-malus level": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Both deductions exist only under the old regime. The new regime, which is the default, doesn't allow them.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Brands are anonymised in the dataset": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Brick and mortar": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Business Standard, 1 January 2026, citing IRDAI": [
+    "frontend/src/lib/insurers.ts"
+  ],
+  "By amount": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "By amount saved: {list}.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "By continuing you agree to the": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "By month": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "By risk and sum insured": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "By value the industry paid {amount} of claims, lower than {number} by number. Large claims are more likely to be investigated or rejected, often over undisclosed health conditions.": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Calibration by decile": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Can't reach the server. Check your connection and try again.": [
+    "frontend/src/lib/api.ts"
+  ],
+  "Cancel": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Cancer": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Car or two-wheeler": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Cash payments don't qualify, except for check-ups.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Change": [
+    "frontend/src/components/estimate/Savings.tsx"
+  ],
+  "Change something and watch the premium update. Each change is recalculated with the full model, using the rest of your answers as they are.": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Changes": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Check the price before you buy.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Check your email": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Choose a higher voluntary deductible": [
+    "backend/src/engine/levers.ts"
+  ],
+  "City": [
+    "frontend/src/components/estimate/PremiumLedger.tsx",
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "City flood and earthquake exposure": [
+    "backend/src/engine/factors.ts"
+  ],
+  "City healthcare costs": [
+    "backend/src/engine/factors.ts"
+  ],
+  "City risk levels cover 20 cities and are relative ratings, not published indices.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "City traffic and theft rates": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Claim frequency model": [
+    "frontend/src/components/shell/AppShell.tsx",
+    "frontend/src/pages/insurers/Model.tsx",
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Claim history": [
+    "frontend/src/components/estimate/PremiumLedger.tsx",
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Claim-free property history": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Claim-free years": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Claims": [
+    "frontend/src/components/insurer/Charts.tsx",
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/insurers/Model.tsx",
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "Claims before renewal": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Claims before renewal {from} → {to}": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Claims filed": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Claims history": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "Claims on record": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Claims on record {from} → {to}": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Claims paid ÷ premium, 12 months": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Claims paid out as a share of premiums earned. A low ratio means the insurer kept most of what it collected. Above 100% it paid out more than it earned, which is generous for customers but hard to keep up.": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Claims per policy": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Claims per policy-year": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Claims settled": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Claims you've made": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Clean driving record": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Cleaning: exposure capped at one year and claim counts at 4; extreme vehicle age, driver age and bonus-malus values capped.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Close": [
+    "frontend/src/components/ui/Overlays.tsx"
+  ],
+  "Close menu": [
+    "frontend/src/components/shell/Marketing.tsx"
+  ],
+  "Code from your app": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Commercial": [
+    "frontend/src/pages/estimate/Estimate.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Compare insurers": [
+    "frontend/src/components/shell/AppShell.tsx",
+    "frontend/src/components/shell/Marketing.tsx",
+    "frontend/src/pages/Compare.tsx",
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Compare insurers' claim records before you buy": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Compare insurers' claim settlement records": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Compare this against real quotes from two or three insurers or an aggregator before you buy.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Comprehensive": [
+    "backend/src/engine/decisionSummary.ts",
+    "frontend/src/lib/utils.ts",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Comprehensive two-wheeler premiums (2026)": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Conditions in your parents or siblings": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Conditions you've been diagnosed with": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Consistency": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Consistency check": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Consistency flags": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Consistency score": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "Construction": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Continue": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Continue with email": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Copied": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Copy": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Couldn't delete that estimate. Refresh and try again.": [
+    "frontend/src/pages/Account.tsx"
+  ],
+  "Couldn't get an answer. Try again.": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Couldn't load your estimates.": [
+    "frontend/src/pages/Account.tsx"
+  ],
+  "Couldn't open that estimate.": [
+    "frontend/src/pages/Account.tsx"
+  ],
+  "Couldn't recalculate.": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Couldn't send the code. Try again.": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Couldn't update the estimate.": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Couldn't verify the code.": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Counts from the live site. No personal details are shown here.": [
+    "frontend/src/pages/insurers/Usage.tsx"
+  ],
+  "Cover": [
+    "frontend/src/pages/Account.tsx",
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx",
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "Cover {from} → {to}": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Cover amount": [
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Cover level": [
+    "frontend/src/components/estimate/PremiumLedger.tsx",
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Create account": [
+    "frontend/src/pages/Welcome.tsx"
+  ],
+  "Cutting back lowers long-term health risk.": [
+    "backend/src/engine/levers.ts"
+  ],
+  "Daily": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Daily limit": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Dark theme": [
+    "frontend/src/components/shell/AppShell.tsx"
+  ],
+  "Data sources": [
+    "frontend/src/components/shell/Marketing.tsx"
+  ],
+  "Death claims paid, by number": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Decile {n}": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Declared conditions ({conditions}) make a claim more likely. Most insurers also apply a waiting period to them.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Declared medical conditions": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Declared pre-existing condition": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Decrease": [
+    "frontend/src/components/ui/Controls.tsx"
+  ],
+  "Deductible": [
+    "frontend/src/components/estimate/PremiumLedger.tsx",
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Deductible {from} → {to}": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Deduction": [
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Delete account": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Delete estimate": [
+    "frontend/src/pages/Account.tsx"
+  ],
+  "Delete permanently": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Delete your account?": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Depreciation": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Deviance explained": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Diabetes": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Diabetes, blood pressure, heart or other long-term conditions": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Diagnosed conditions": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Diesel": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Digit {n}": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Disclose every condition on the proposal form, and read the waiting periods, room-rent limits and co-payment terms. Most rejected claims trace back to one of these.": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Disclose every condition, smoking and your real income on the proposal form. Non-disclosure is the most common reason life claims are rejected.": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Distance a year": [
+    "frontend/src/pages/estimate/WhatIf.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Distance driven a year": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "divorced": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "Don't try to break, overload or scrape the service, get around its limits, or use it for anything unlawful. The AI assistant has a daily question limit, and accounts that abuse it may be suspended.": [
+    "frontend/src/pages/Terms.tsx"
+  ],
+  "Don't type names, phone numbers or other personal details: on the free tier Google may use questions to improve its products.": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Double lift: where the two models disagree": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Download": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Drink less": [
+    "backend/src/engine/levers.ts"
+  ],
+  "Drive fewer kilometres": [
+    "backend/src/engine/levers.ts"
+  ],
+  "Driver age": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Driver age 25–29": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Driver age 60–69": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Driver age 70+": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Drivers aged 30–59 have the lowest accident rates.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Drivers under 25 (you're {age}) have the highest accident rates of any age group.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Each change goes back through the full model, so you see what it's worth for you, and whether it's worth the effort.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Each change was re-run through the same model, so the savings are specific to you.": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Each code works once.": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Each dot is a policy. Premium on a log scale, since motor, home, health and term life sit in very different price ranges.": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Each level's multiplier on claim frequency, relative to the base level. This is the form an insurer files and an underwriter can audit.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Each step multiplies the running total. Orange raises it, blue lowers it.": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Each type of cover spreads 100 points across seven categories differently.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Edit answers": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Effort": [
+    "frontend/src/components/estimate/Savings.tsx"
+  ],
+  "Email address": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Email sign-in and abuse limits": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Email, name, Google profile photo": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Engine size": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Enter a number.": [
+    "frontend/src/lib/api.ts"
+  ],
+  "Enter a valid email address.": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Enter one of the recovery codes you saved when you turned on two-step verification. Each code works once.": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Enter the 6-digit code from your authenticator app.": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Enter the 6-digit code the app shows.": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Enter to send, Shift+Enter for a new line": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Enter your name.": [
+    "frontend/src/pages/Welcome.tsx"
+  ],
+  "Estimate not found.": [
+    "backend/src/api/routes/me.ts"
+  ],
+  "Estimated premium": [
+    "frontend/src/components/estimate/PremiumLedger.tsx",
+    "frontend/src/pages/estimate/Estimate.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Estimates are checked against figures published by": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Estimates are not quotes": [
+    "frontend/src/pages/Terms.tsx"
+  ],
+  "Estimates made without signing in aren't stored on our server; they stay in your browser tab until you close it.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Estimates you make while signed in are saved here automatically.": [
+    "frontend/src/pages/Account.tsx"
+  ],
+  "Estimates, scores, market comparisons, tax figures and AI answers are for information only. Insurers set their own prices and decide who they cover. Before you buy, check the policy wording and get quotes from insurers or an IRDAI-registered intermediary. Tax figures are general and don't replace advice from a tax professional.": [
+    "frontend/src/pages/Terms.tsx"
+  ],
+  "Every number on your estimate comes from the formulas and sources on this page.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Ex-showroom price minus {pct}% depreciation for a vehicle aged {band}.": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Ex-showroom price when new": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Exercise": [
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Exercise regularly": [
+    "backend/src/engine/levers.ts"
+  ],
+  "Exercise: {level}": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Exercise: athlete": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Exercise: none": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Exercise: occasional": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Exercise: regular": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Expected claims per year": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Experienced driver": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Experienced driving age": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Factor": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Fair use": [
+    "frontend/src/pages/Terms.tsx"
+  ],
+  "Family floater base rate for your age": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Family history": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Family medical history": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Family of {n}": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Female": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "field sales, driving, site work": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Financial planners commonly suggest term cover of 10–15 times annual income, adjusted for dependents and loans. It's a guideline, not an insurer or IRDAI requirement.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Financial year 2024-25 · click a column to sort": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Finish creating your account": [
+    "frontend/src/pages/Welcome.tsx"
+  ],
+  "Fit an approved anti-theft device": [
+    "backend/src/engine/levers.ts"
+  ],
+  "Fixed by IRDAI by engine size. Same at every insurer.": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Flagged for review": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Flags": [
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "Flags for review": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "Flags point to answers worth verifying. They aren't evidence of wrongdoing.": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "For example a factory, godown or fuel station next door": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "For insurers": [
+    "frontend/src/components/shell/Marketing.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "For life policies issued after 1 April 2012, only premium up to 10% of the sum assured counts.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "For manual review": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "For term life the form asks for sex only to pick the matching published rate table for the market comparison, because that's how insurers publish those tables.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "For vehicle and home cover, what matters is insuring at the right value (the IDV or property value you entered). There's no income-based rule to check against.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "For vehicles up to 5 years old, the insured value (IDV) is set by a fixed depreciation schedule, so we work it out from the ex-showroom price.": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Forbes Advisor India · Average cost of car insurance (2026)": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "Free. About two minutes. No account needed.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "From the date of first registration": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "From the latest assessment": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "From your numbers": [
+    "frontend/src/pages/estimate/Ask.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "From your risk score": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Fuel": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "GBM claims share": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "GBM effect": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "GBM explains {pct} more deviance than the GLM": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Gemini can get things wrong, so check anything important with the insurer.": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Gender, religion, caste and marital status don't change the price.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Get an estimate": [
+    "frontend/src/components/estimate/EmptyEstimate.tsx",
+    "frontend/src/components/shell/Marketing.tsx",
+    "frontend/src/pages/Compare.tsx",
+    "frontend/src/pages/NotFound.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Get an estimate first": [
+    "frontend/src/components/shell/AppShell.tsx"
+  ],
+  "Get an estimate for health, motor, home or term-life cover in India.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Get an estimate for your profile, then compare quotes from these insurers against it.": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Get at least two real quotes before buying. This estimate is above the usual range, which tops out around {amount}.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Gini, test set · {pct} of deviance explained": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "GLM claims share": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Google or a one-time email code. No password.": [
+    "frontend/src/components/shell/RequireAuth.tsx"
+  ],
+  "Google sign-in couldn't load. Use your email instead.": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Google sign-in failed.": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Google sign-in failed. Please try again.": [
+    "backend/src/auth/google.ts"
+  ],
+  "Google sign-in isn't configured on this server.": [
+    "backend/src/auth/google.ts"
+  ],
+  "Hatchback": [
+    "frontend/src/pages/estimate/Estimate.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "HDFC ERGO · Average health insurance cost in India": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "Health": [
+    "frontend/src/lib/utils.ts",
+    "frontend/src/pages/Compare.tsx",
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Health and term-life estimates also show the income-tax saving under the old regime.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Health and term-life estimates show how much tax the premium could save.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Healthy BMI": [
+    "backend/src/engine/factors.ts"
+  ],
+  "healthy range": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Heart disease": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Heavy drinking": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Heavy drinking raises the risk of liver disease, injury and hospital stays.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Height": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "High": [
+    "backend/src/engine/config.ts",
+    "frontend/src/lib/utils.ts",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "High annual mileage": [
+    "backend/src/engine/factors.ts"
+  ],
+  "High BMI": [
+    "backend/src/engine/factors.ts"
+  ],
+  "High consistency flag": [
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "High earthquake or cyclone zone": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "High engine capacity": [
+    "backend/src/engine/factors.ts"
+  ],
+  "High insured property value": [
+    "backend/src/engine/factors.ts"
+  ],
+  "High insured vehicle value": [
+    "backend/src/engine/factors.ts"
+  ],
+  "High risk": [
+    "frontend/src/components/estimate/RiskMeter.tsx",
+    "frontend/src/pages/insurers/Overview.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "High risk, high value": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "High-risk policyholders": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Higher than usual": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Higher voluntary deductible, lower premium": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Higher-risk profiles land above it, as they would with a real insurer.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Highest average risk by city": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Highest-risk cities": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Home": [
+    "frontend/src/lib/utils.ts",
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/NotFound.tsx",
+    "frontend/src/pages/SignIn.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Home insurance cost by property value (2026)": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Home insurance covers the building. Use the rebuilding cost, not the market price with land.": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Hospital bills for you or your family": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Hospital costs are higher and rise faster in metro cities, so advisors usually suggest a higher sum insured there. This is general guidance, not a regulatory figure.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Hospital costs in {city} are among the highest in India. At the {tier} tier, check that the sum insured would cover a major hospital stay there.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "How can I reduce my premium?": [
+    "frontend/src/pages/landing/Landing.tsx",
+    "shared/src/types.ts"
+  ],
+  "How does the no-claim bonus work for me?": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "How each factor changes frequency": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "How insurers handle claims": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "How it was built": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "How it works": [
+    "frontend/src/components/shell/Marketing.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "How it's calculated": [
+    "frontend/src/pages/estimate/Estimate.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "How long claims took, how much of each bill was deducted, and how many complaints the insurer received. Check the insurer's public disclosures and the IRDAI grievance data for those.": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "How often a motor policy claims, learned from {n} real policies. A Poisson GLM, the way most insurers file their rates, against gradient boosting.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "How the estimate is calculated": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "How the premium is built": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Hypertension": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "I agree to the": [
+    "frontend/src/pages/Welcome.tsx"
+  ],
+  "I have a diagnosed medical condition": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "I smoke or use tobacco": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "I've saved them": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "IDV {from} → {to}": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "IDV depreciation table": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "IDV entered by you": [
+    "backend/src/engine/motorValue.ts",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "If a site runs on Gemini's free tier, Google's terms allow it to use questions and answers to improve its products, and human reviewers may read them.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "If a translation reads awkwardly or is wrong, the English version is the reference.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "If something looks wrong, this is where to check it.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "If you already use the ₹1.5 lakh Section 123 limit elsewhere, the life premium saves nothing extra.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "If you didn't try to sign in, you can ignore this email. Nobody can sign in without this code.": [
+    "backend/src/auth/email.ts"
+  ],
+  "If you lose your phone, each of these codes lets you sign in once. They won't be shown again.": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "If you sign in, we store": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "If you've chosen a language other than English, Gemini is asked to answer in that language.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "In this example the three changes save {amount} a year.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Including 18% GST": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Including occasional use in the last 12 months": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "income {amount}": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "Income-tax rates, including the old-regime slabs": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Income-tax saving": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Increase": [
+    "frontend/src/components/ui/Controls.tsx"
+  ],
+  "Incurred claim ratio": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Individual": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Individual base rate for your age": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Individual death claims paid as a share of those the insurer decided in the year. Almost every large insurer is above 97%, so small gaps between them rarely matter.": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Industry {a} · public sector {b} · private general {c} · standalone health {d}": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Inside the app, press {key} to start a new one any time": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Insurance Business, on the FY 2024-25 industry ratio": [
+    "frontend/src/lib/insurers.ts"
+  ],
+  "Insurance claims in the last 12 months": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Insurance type": [
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "Insure24 · Comprehensive two-wheeler insurance in India (2026)": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "Insured value (IDV)": [
+    "frontend/src/pages/estimate/Estimate.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Insurer": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Insurer claim figures are for one financial year and don't show claim turnaround time or complaints.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Insurer claim records": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "insurer workspace": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Insurer workspace": [
+    "frontend/src/App.tsx",
+    "frontend/src/components/shell/AppShell.tsx",
+    "frontend/src/pages/insurers/Overview.tsx",
+    "frontend/src/pages/insurers/Policies.tsx",
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "Insurers": [
+    "frontend/src/components/shell/Marketing.tsx"
+  ],
+  "Insurers are listed in the order of the column you choose. The order is not a recommendation.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Insurers ask these on the proposal form. Answering honestly here gives a more realistic number.": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Insurers price with their own claims data, medical tests and underwriting rules, and their final price can differ from this one in either direction.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Insurers' medical underwriting, waiting periods, add-ons and discounts vary and aren't modelled in detail.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "InsurTechAI estimates what a health, motor, home or term-life policy like yours typically costs in India, and shows the working.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "InsurTechAI gives estimates of insurance premiums in India and explains how they are worked out. It is not an insurer, broker, corporate agent or web aggregator registered with IRDAI, and it does not sell or arrange insurance.": [
+    "frontend/src/pages/Terms.tsx"
+  ],
+  "InsurTechAI has no commercial relationship with any insurer listed. The order here is by the column you choose, not a recommendation.": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "InsurTechAI home": [
+    "frontend/src/components/shell/Marketing.tsx"
+  ],
+  "InsurTechAI is an independent estimate tool. It isn't an insurer, broker or IRDAI-registered intermediary, and nothing on this site is a quote or a recommendation to buy a particular policy. Premiums shown exclude 18% GST.": [
+    "frontend/src/components/shell/Marketing.tsx"
+  ],
+  "InsurTechAI recovery codes": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "IRDAI Annual Report 2024-25": [
+    "frontend/src/lib/insurers.ts"
+  ],
+  "IRDAI third-party car premiums by engine size": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "IRDAI third-party two-wheeler premiums by engine size": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Is it worth raising my deductible?": [
+    "frontend/src/pages/estimate/Ask.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Is the cover enough?": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "It also has a claim frequency study on 677,991 real French motor policies: a Poisson GLM against gradient boosting, with calibration, lift and SHAP.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "It belongs to the owner, not the vehicle, so it transfers to a new vehicle.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "It doesn't receive your name, email, exact age, income or the names of any medical conditions.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "It doesn't sell policies and has no commercial arrangement with any insurer, so nothing here is ranked or nudged towards a product.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "It expires in {minutes} minutes and can only be used once.": [
+    "backend/src/auth/email.ts"
+  ],
+  "It expires in {minutes} minutes and can only be used once. If you didn't try to sign in, ignore this email. Nobody can sign in without this code.": [
+    "backend/src/auth/email.ts"
+  ],
+  "It isn't an insurer, broker or IRDAI-registered intermediary.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "It lapses if the policy isn't renewed within 90 days of expiry.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "It's told to stick to those numbers, call the premium an estimate, and never suggest wrongdoing.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Job risk": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "just now": [
+    "frontend/src/lib/utils.ts"
+  ],
+  "Keeping you signed in securely": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Kept": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Kidney disease": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Know what a fair price looks like first": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Know what your insurance should cost.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Language": [
+    "frontend/src/components/shell/LanguageSwitcher.tsx"
+  ],
+  "Languages": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Leakage: rows with identical rating factors (often the same driver across renewals) are kept on the same side of every split.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Leave all off if none": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Less time on the road means fewer chances of an accident. Some insurers offer pay-as-you-drive plans for low mileage.": [
+    "backend/src/engine/levers.ts"
+  ],
+  "Level": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Liability": [
+    "frontend/src/pages/Terms.tsx"
+  ],
+  "Lifestyle": [
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Light theme": [
+    "frontend/src/components/shell/AppShell.tsx"
+  ],
+  "Limit {amount}": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Limitations": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Limited driving experience": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Limits: French data from the 2000s, frequency only (a full price also needs claim severity, expenses and loadings), and the brand and region codes are as anonymised in the dataset. Source: {citation}": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Local development: SMTP isn't set up, so the code is printed in the backend terminal.": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Looks right": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Loss ratio": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Lost your phone? Use a recovery code": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Low": [
+    "backend/src/engine/config.ts",
+    "frontend/src/lib/utils.ts",
+    "frontend/src/pages/Compare.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Low annual mileage": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Low BMI": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Low risk": [
+    "frontend/src/components/estimate/RiskMeter.tsx"
+  ],
+  "Low risk, high value": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Low risk, low value": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Lower deviance is better. Most policies never claim, so absolute differences look small; deviance explained and the Gini index compare models more fairly. Predicted ÷ actual close to 1 means the total number of claims is right.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Lowest-risk {pct} of exposure": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Male": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Many declared conditions for this age. Expect the insurer to ask for medical tests.": [
+    "backend/src/engine/fraudEngine.ts"
+  ],
+  "Market ranges and sources": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Market ranges are broad and don't adjust for every detail of your profile.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "married": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "May be too low": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Mean absolute SHAP value on the log-frequency scale, {n} test policies.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "median": [
+    "frontend/src/components/estimate/BenchmarkBar.tsx"
+  ],
+  "Medium": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Methodology": [
+    "frontend/src/components/shell/AppShell.tsx",
+    "frontend/src/components/shell/Marketing.tsx",
+    "frontend/src/pages/Compare.tsx",
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "mining, offshore, armed forces, aviation": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Model": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Model study": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Moderate": [
+    "backend/src/engine/config.ts",
+    "frontend/src/lib/utils.ts"
+  ],
+  "Moderate consistency flag": [
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "Moderate drinking": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Moderate drinking adds a small amount of long-term risk.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Moderate risk": [
+    "frontend/src/components/estimate/RiskMeter.tsx",
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Mortality risk rises steadily with age, and is priced in by every insurer.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Most days": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Most insurers give a small discount for one": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Most insurers re-rate you as a non-smoker after 12 months without tobacco.": [
+    "backend/src/engine/levers.ts"
+  ],
+  "Motor": [
+    "frontend/src/lib/utils.ts",
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Motor and home insurance premiums for personal use don't qualify for an income-tax deduction.": [
+    "backend/src/engine/taxBenefit.ts"
+  ],
+  "Motor puts the most weight on claims and driving behaviour, for example, and health on lifestyle.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Motor third-party premiums are set by IRDAI by engine size and are the same at every insurer: ₹2,094 up to 1000cc, ₹3,416 for 1001–1500cc and ₹7,897 above 1500cc for cars, and ₹538 to ₹2,804 for two-wheelers.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Motor, home": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Motor: IDV and no-claim bonus": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Move a slider or flip a switch to start.": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Multiplier": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Multipliers are relative to the base levels, bonus-malus 50, 100 people per km² and area C.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Must be {n} or less.": [
+    "frontend/src/lib/api.ts"
+  ],
+  "Must be at least {n}.": [
+    "frontend/src/lib/api.ts"
+  ],
+  "Navigation": [
+    "frontend/src/components/shell/AppShell.tsx"
+  ],
+  "Near a fire hazard": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Never": [
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "New estimate": [
+    "frontend/src/components/shell/AppShell.tsx",
+    "frontend/src/pages/Account.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "New recovery codes": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "New this week": [
+    "frontend/src/pages/insurers/Usage.tsx"
+  ],
+  "New vehicle": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Newer vehicles break down less often.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Next page": [
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "Next renewal without a claim": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Nil": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Niva Bupa · Average health insurance premium in India (2025)": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "No accidents or claims on record, which is the best predictor of a low-claim future.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "No anti-theft device": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "No applicant profile available to benchmark.": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "No change": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "No change yet": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "No claims in the last 12 months.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "No claims.": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "No declared conditions": [
+    "backend/src/engine/factors.ts"
+  ],
+  "No estimate yet": [
+    "frontend/src/components/estimate/EmptyEstimate.tsx"
+  ],
+  "No inconsistencies in this application.": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "No model": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "No model (portfolio average)": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "No policies match these filters.": [
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "No previous claims on this property.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "No real customer data is used.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "No recent claims": [
+    "backend/src/engine/factors.ts",
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "No recent claims. The no-claim bonus is applied separately.": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "No regular exercise is linked to higher rates of chronic illness.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "No route for {method} {url}": [
+    "backend/src/server.ts"
+  ],
+  "No saved estimates yet": [
+    "frontend/src/pages/Account.tsx"
+  ],
+  "No saved estimates yet.": [
+    "frontend/src/pages/insurers/Usage.tsx"
+  ],
+  "No saving at your income": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "No security system": [
+    "backend/src/engine/factors.ts",
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "No single factor stands out. Your score comes from several small ones.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "No-claim bonus": [
+    "frontend/src/components/estimate/PremiumLedger.tsx",
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "No-claim bonus {from}% → {to}%": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "No-claim bonus in car insurance": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "No-claim bonus: {pct}% off the own-damage premium": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "No-claim discount": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Non-smoker": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Non-smokers are priced at the standard rate.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Non-standard construction type": [
+    "backend/src/engine/factors.ts"
+  ],
+  "None": [
+    "frontend/src/components/estimate/PremiumLedger.tsx",
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "None for personal use": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "None of the changes this tool can model would lower your premium noticeably. Your best move is comparing real quotes.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "None of the changes this tool can model would save a meaningful amount.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "None of the changes this tool models would lower your premium noticeably.": [
+    "frontend/src/components/estimate/Savings.tsx"
+  ],
+  "None, or I claimed last year": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Not applicable": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Nothing in your answers is pushing your score up.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "Nothing in your answers moves the score noticeably.": [
+    "frontend/src/components/estimate/FactorChart.tsx"
+  ],
+  "Nothing is sent anywhere else.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Nothing is stored unless you sign in.": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Nothing obvious. Keeping a claim-free record will do the most over time.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "Nothing unusual": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Now": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Nyvo · ₹1 crore term insurance premiums by age (2026)": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "obese range": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Observed": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Occasionally": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Occupation": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Off": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "office, teaching, IT": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Offset: every model predicts claims for the policy's own exposure through log(exposure), so a three-month policy is expected to claim a quarter as often.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Older property structure": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Older vehicle": [
+    "backend/src/engine/factors.ts"
+  ],
+  "On": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "On this page": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Once or twice a week": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "One accident on record. Past accidents are the strongest predictor of future claims.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "One answer looks unusual next to the others. See \"What an insurer may ask about\".": [
+    "backend/src/engine/riskEngine.ts"
+  ],
+  "One claim in the last 12 months.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "One claim resets it to 0 unless the policy has NCB protection.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "One previous claim on this property.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "One previous claim. Each claim also resets your no-claim bonus.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "One traffic violation on record.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "One year of driving experience. Accident rates drop sharply after the first few years.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Only admins can see site usage. Admins are set with ADMIN_EMAILS in the backend's .env.": [
+    "frontend/src/pages/insurers/Usage.tsx"
+  ],
+  "Only under the old tax regime. The new regime, which is the default, gives no deduction for this premium.": [
+    "backend/src/engine/taxBenefit.ts"
+  ],
+  "Only used to pick the matching published rate table for the market comparison. It doesn't change your estimate.": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Open": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Open app": [
+    "frontend/src/components/shell/Marketing.tsx"
+  ],
+  "Open claims exposure": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Open menu": [
+    "frontend/src/components/shell/Marketing.tsx"
+  ],
+  "Open navigation": [
+    "frontend/src/components/shell/AppShell.tsx"
+  ],
+  "Open the workspace": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Open your authenticator app and add an account.": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "or": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "or press": [
+    "frontend/src/components/estimate/EmptyEstimate.tsx"
+  ],
+  "Other": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Over 5 years": [
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Over 5 years (IDV agreed with the insurer)": [
+    "backend/src/engine/motorValue.ts"
+  ],
+  "Over 5 years there is no fixed schedule. Use the IDV on your current policy.": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Over 5 years there's no schedule.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Overall you score {score} out of 100, which is high risk for this type of cover.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "Overall you score {score} out of 100, which is low risk for this type of cover.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "Overall you score {score} out of 100, which is moderate risk for this type of cover.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "Overall you score {score} out of 100, which is very high risk for this type of cover.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "Overall you score {score} out of 100, which is very low risk for this type of cover.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "Overview": [
+    "frontend/src/components/shell/AppShell.tsx"
+  ],
+  "overweight range": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Own-damage cover, priced as a share of your vehicle's IDV": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Pay by UPI, card or bank transfer: premiums paid in cash don't qualify.": [
+    "backend/src/engine/taxBenefit.ts"
+  ],
+  "People who depend on you financially": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Per year": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Per year, rounded, before 18% GST": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Permanently deletes your account and every saved estimate. This can't be undone.": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Personal": [
+    "frontend/src/components/shell/AppShell.tsx"
+  ],
+  "Petrol": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Plain-language terms for using InsurTechAI. By creating an account you agree to them.": [
+    "frontend/src/pages/Terms.tsx"
+  ],
+  "Please agree to the terms to continue.": [
+    "frontend/src/pages/Welcome.tsx"
+  ],
+  "Please agree to the terms to finish creating your account.": [
+    "backend/src/api/routes/me.ts"
+  ],
+  "Please sign in to continue.": [
+    "backend/src/auth/middleware.ts"
+  ],
+  "Please wait {n} seconds before requesting another code.": [
+    "backend/src/auth/otp.ts"
+  ],
+  "Poisson deviance": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Poisson GLM against gradient boosting on 677,991 real motor policies": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Policies": [
+    "frontend/src/components/insurer/Charts.tsx",
+    "frontend/src/components/shell/AppShell.tsx",
+    "frontend/src/pages/insurers/Model.tsx",
+    "frontend/src/pages/insurers/Overview.tsx",
+    "frontend/src/pages/insurers/Policies.tsx",
+    "frontend/src/pages/insurers/PolicyDetail.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Policies by annual premium": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Policies by risk band": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Policies ordered from lowest to highest predicted risk. The further the curve bows below the diagonal, the better the model separates risks.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Policies sorted by how much higher the GBM prices them than the GLM. At both ends, the observed claims follow the GBM, so its extra structure is real rather than noise.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Policy": [
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx",
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "Policy-years of exposure": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Policybazaar, from insurers' NL-37 disclosures": [
+    "frontend/src/lib/insurers.ts"
+  ],
+  "Policyholder": [
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "Policyholder not found.": [
+    "backend/src/api/routes/applicants.ts"
+  ],
+  "Population density": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Portfolio overview": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Portfolio workspace": [
+    "frontend/src/components/shell/Marketing.tsx"
+  ],
+  "Predicted": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Predicted ÷ actual": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Prefab and non-standard construction is less resilient than reinforced concrete.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Prefabricated": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Prefer not to say": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Premium": [
+    "backend/src/engine/decisionSummary.ts",
+    "frontend/src/components/insurer/Charts.tsx",
+    "frontend/src/lib/utils.ts",
+    "frontend/src/pages/Account.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/insurers/Policies.tsx",
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "Premium bands": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Premium estimates for health, motor, home and term-life cover in India.": [
+    "frontend/src/components/shell/Marketing.tsx"
+  ],
+  "Premium you pay": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Premiums for parents have a separate limit of ₹25,000, or ₹50,000 for senior parents. That isn't included in the estimate, which covers your own policy.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Preventive health check-ups up to ₹5,000 count within these limits.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Previous accidents": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Previous claims": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Previous claims on this home": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Previous page": [
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "Previous property claims": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Price is only half the decision. These are the claim records insurers report to IRDAI for 2024-25, with what each number does and doesn't tell you.": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Privacy": [
+    "frontend/src/components/shell/Marketing.tsx",
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Privacy notice": [
+    "frontend/src/pages/SignIn.tsx",
+    "frontend/src/pages/Terms.tsx",
+    "frontend/src/pages/Welcome.tsx"
+  ],
+  "Private general": [
+    "frontend/src/lib/insurers.ts"
+  ],
+  "Product": [
+    "frontend/src/components/shell/Marketing.tsx"
+  ],
+  "Profile": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Protective factors outweigh the risky ones": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Protective factors, such as a clean record or an anti-theft device, subtract points and can take a category below zero, so they offset risk elsewhere.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Public sector": [
+    "frontend/src/lib/insurers.ts"
+  ],
+  "Published per-crore rate for your age, scaled to your cover and term; ×1.5 for smokers": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Published term rates for a {age}-year-old smoker, scaled to your cover. Actual quotes depend on each insurer's medical checks.": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "Published term rates for a {age}-year-old, scaled to your cover. Actual quotes depend on each insurer's medical checks.": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "Published term rates for your age, scaled to your cover and term": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "QR code for your authenticator app": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Questions about your {amount} estimate. The preset questions are answered straight from your numbers. Anything you type goes to Google Gemini along with your estimate.": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Questions you type yourself go to Google's Gemini model, which needs you to be signed in.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Quit smoking": [
+    "backend/src/engine/levers.ts",
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Raise the deductible, fit an anti-theft device, drive less, quit smoking.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Range": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Range from": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Range: {source}, average cost of car insurance (2026)": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Ranking risk: Lorenz curve": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Rarely": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Rarely or never": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Rate": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Rating factor": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "RCC concrete construction": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Reading the numbers": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Rebuild value": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Rebuild value {from} → {to}": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Rebuilding value": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Recent claims": [
+    "backend/src/engine/factors.ts",
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Recovery code": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Reference": [
+    "frontend/src/components/shell/AppShell.tsx"
+  ],
+  "Region": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Regular exercise": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Regular exercise is linked to fewer chronic illnesses.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Reinforced concrete (RCC)": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Reinforced concrete (RCC) holds up best against fire and structural damage.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "rejected": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "Relativity": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Renew without claiming": [
+    "backend/src/engine/levers.ts"
+  ],
+  "Replace codes": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Replace your recovery codes?": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Replaces your current estimate": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Reported as exactly 100% by the source. We couldn't match it to the insurer's own disclosure, so treat it with care.": [
+    "frontend/src/lib/insurers.ts"
+  ],
+  "Request body is too large.": [
+    "backend/src/api/middleware/errorHandler.ts"
+  ],
+  "Request body isn't valid JSON.": [
+    "backend/src/api/middleware/errorHandler.ts"
+  ],
+  "Request origin not allowed.": [
+    "backend/src/auth/middleware.ts"
+  ],
+  "Request payload failed validation.": [
+    "backend/src/api/middleware/errorHandler.ts"
+  ],
+  "Required.": [
+    "frontend/src/lib/api.ts"
+  ],
+  "Resend code": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Resend in {seconds}s": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Reset": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Resources": [
+    "frontend/src/components/shell/Marketing.tsx"
+  ],
+  "Results on the held-out test set": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Riders such as accidental death or critical illness": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Risk": [
+    "frontend/src/components/estimate/PremiumLedger.tsx",
+    "frontend/src/components/insurer/Charts.tsx",
+    "frontend/src/pages/Account.tsx",
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx",
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "Risk {score}": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Risk against premium": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Risk band": [
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "Risk factors": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "Risk mix": [
+    "frontend/src/pages/insurers/Overview.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "risk now": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Risk score": [
+    "frontend/src/components/insurer/Charts.tsx"
+  ],
+  "Risk score {score} out of 100, {category}": [
+    "frontend/src/components/estimate/RiskMeter.tsx"
+  ],
+  "Risk score above 60": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Risk score out of 100 for this type of cover": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Risk score; below 1.00 when protective factors outweigh risky ones": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Risk weights are set by hand, not learned from real claims.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Running total": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Sample policies": [
+    "frontend/src/components/shell/Marketing.tsx"
+  ],
+  "Sample portfolio": [
+    "frontend/src/components/shell/AppShell.tsx"
+  ],
+  "Save": [
+    "frontend/src/pages/Security.tsx",
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Save your estimates and ask the AI assistant about them. There's no password: we email you a one-time code.": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Save your recovery codes": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Saved": [
+    "frontend/src/pages/Account.tsx",
+    "frontend/src/pages/Security.tsx",
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Saved estimates": [
+    "frontend/src/components/shell/AppShell.tsx",
+    "frontend/src/pages/Account.tsx",
+    "frontend/src/pages/insurers/Usage.tsx"
+  ],
+  "Saved estimates by cover": [
+    "frontend/src/pages/insurers/Usage.tsx"
+  ],
+  "Saves {amount}": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Saves / year": [
+    "frontend/src/components/estimate/Savings.tsx"
+  ],
+  "Scan the QR code, or type this key:": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Schedule XV: payments that qualify under Section 123": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Section": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Section 123 (formerly 80C)": [
+    "backend/src/engine/taxBenefit.ts"
+  ],
+  "Section 123 with Schedule XV (formerly 80C)": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Section 123: deduction for life insurance premium and other savings": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Section 126 (formerly 80D)": [
+    "backend/src/engine/taxBenefit.ts",
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Section 126: deduction for health insurance premium": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Section 80C becomes Section 123 from 1 April 2026": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Security system added": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Security system fitted": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Sedan": [
+    "frontend/src/pages/estimate/Estimate.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Sedentary lifestyle": [
+    "backend/src/engine/factors.ts"
+  ],
+  "See my estimate": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "See the model": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "See what's pushing the price up, how it compares with published market rates, and what would bring it down.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Segments": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Seismic zone IV–V, or a cyclone-prone coast": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Send": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Session record: hashed token, browser, IP address": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Set by": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Sets the third-party premium": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "settled": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "Several insurers now reward regular activity with renewal discounts.": [
+    "backend/src/engine/levers.ts"
+  ],
+  "Sex": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Share of exposure": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Sign in": [
+    "frontend/src/components/shell/AppShell.tsx",
+    "frontend/src/components/shell/Marketing.tsx",
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Sign in and you can ask your own, answered by Google's Gemini with your estimate as context and told to stick to it.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Sign in or create an account": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Sign in to continue": [
+    "frontend/src/components/shell/RequireAuth.tsx"
+  ],
+  "Sign in to manage your account.": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Sign in to save estimates and ask the AI assistant.": [
+    "frontend/src/components/shell/AppShell.tsx"
+  ],
+  "Sign in to save it": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Sign in to see estimates you've saved.": [
+    "frontend/src/pages/Account.tsx"
+  ],
+  "Sign in to type your own questions. The presets above work without an account.": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Sign in with an admin account to see usage.": [
+    "frontend/src/pages/insurers/Usage.tsx"
+  ],
+  "Sign out": [
+    "frontend/src/components/shell/AppShell.tsx",
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Sign out all others": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Sign out anything you don't recognise.": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Sign-in codes (hashed) and the email and IP they were requested from": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Sign-in isn't available right now. Please try again later.": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Signed in as {email}": [
+    "frontend/src/pages/Account.tsx",
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Signed in as {email}. One more step.": [
+    "frontend/src/pages/Welcome.tsx"
+  ],
+  "Signed-in devices": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Signed-in sessions": [
+    "frontend/src/pages/insurers/Usage.tsx"
+  ],
+  "single": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "Site usage": [
+    "frontend/src/components/shell/AppShell.tsx",
+    "frontend/src/pages/insurers/Usage.tsx"
+  ],
+  "Six common questions are answered straight from your estimate.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "SMC Insurance · Home insurance cost by property value (2026)": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "Smoker": [
+    "backend/src/engine/factors.ts",
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Smoking raises the likelihood and cost of hospital claims more than almost any other habit.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "So you can reopen them": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Some answers need fixing. They're highlighted below.": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Something went wrong. Please try again.": [
+    "frontend/src/lib/api.ts",
+    "frontend/src/pages/Security.tsx",
+    "frontend/src/pages/Welcome.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Sometimes": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Sorted by risk score, highest first. Open a policy for its factors, claims and flags.": [
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "Sources": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "Spouse, children or parents you support": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Standalone health": [
+    "frontend/src/lib/insurers.ts"
+  ],
+  "Standard": [
+    "backend/src/engine/decisionSummary.ts",
+    "frontend/src/lib/utils.ts",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Start the setup again.": [
+    "backend/src/api/routes/me.ts"
+  ],
+  "Start with a preset question, or type your own below.": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Start with: {title}. It gives the most saving for the effort ({amount} a year, high effort).": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "Start with: {title}. It gives the most saving for the effort ({amount} a year, low effort).": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "Start with: {title}. It gives the most saving for the effort ({amount} a year, medium effort).": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "Stay claim-free": [
+    "backend/src/engine/levers.ts"
+  ],
+  "Step": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Stroke": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Sum insured": [
+    "frontend/src/pages/insurers/Overview.tsx"
+  ],
+  "Switch workspace": [
+    "frontend/src/components/shell/AppShell.tsx"
+  ],
+  "Synthetic sample data": [
+    "frontend/src/pages/insurers/Overview.tsx",
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "Tax saved, old regime": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Tax savings": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Tax savings assume salaried income with no other deductions.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Taxable income": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Ten equal-exposure groups by predicted frequency. Predictions should track what actually happened.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Term": [
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Term {from} → {to} years": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Term insurance pays a fixed amount to your family if you die during the term. It has no maturity payout.": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Term life": [
+    "frontend/src/lib/utils.ts",
+    "frontend/src/pages/Compare.tsx",
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Term-life rates are usually quoted for non-smokers, so this keeps you at the base rate.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Terms": [
+    "frontend/src/components/shell/Marketing.tsx",
+    "frontend/src/pages/SignIn.tsx",
+    "frontend/src/pages/Terms.tsx",
+    "frontend/src/pages/Welcome.tsx"
+  ],
+  "Terms of use": [
+    "frontend/src/pages/Terms.tsx"
+  ],
+  "That code didn't match. Check the time on your phone is set automatically, then try the newest code.": [
+    "backend/src/api/routes/me.ts"
+  ],
+  "That code is incorrect or has expired.": [
+    "backend/src/auth/otp.ts"
+  ],
+  "That code is incorrect.": [
+    "backend/src/api/routes/me.ts"
+  ],
+  "That code is incorrect. Check your authenticator app and try again.": [
+    "backend/src/auth/mfa.ts"
+  ],
+  "That recovery code isn't valid or was already used.": [
+    "backend/src/auth/mfa.ts"
+  ],
+  "That's why the Ask page asks you not to type personal details, and says when the free tier is in use.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The {tier} tier is a reasonable starting point for {city}.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "The ₹1.5 lakh limit is shared with PF, PPF, ELSS, home-loan principal and other items. If those already use it up, this premium adds nothing.": [
+    "backend/src/engine/taxBenefit.ts"
+  ],
+  "The AI assistant": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The assistant couldn't answer just now.": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "The assistant couldn't answer just now. Please try again in a moment.": [
+    "backend/src/services/llmAdvisor.ts"
+  ],
+  "The assistant is handling a lot of questions right now. Please try again in a minute.": [
+    "backend/src/services/llmAdvisor.ts"
+  ],
+  "The assistant is offline right now. The preset questions above still work.": [
+    "backend/src/services/llmAdvisor.ts"
+  ],
+  "The base prices were calibrated so that a typical low-risk profile of each kind lands inside the published market range below.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The calculation assumes salaried income with the ₹50,000 standard deduction and no other deductions. It applies the ₹12,500 rebate up to ₹5 lakh of taxable income (Section 156, formerly 87A), surcharge above ₹50 lakh, and 4% cess.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The chance of hospitalisation rises steadily with age, and is priced in by every insurer.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "The Compare insurers page shows claim settlement ratios and incurred claim ratios for FY 2024-25, compiled from IRDAI's handbook and insurers' public disclosures.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The exemption limit is ₹3 lakh at ages 60–79 and ₹5 lakh at 80 and above.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The factors set the price": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "The fitted rating table, applied in your browser. Move a factor to see its multiplier.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "The GLM as a rating table": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "The IDV is agreed between you and the insurer, so the form asks for it directly.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The IDV is the ex-showroom price less depreciation for the vehicle's age, on the schedule insurers apply from the India Motor Tariff.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The Income-tax Act, 2025 applies from 1 April 2026 (FY 2026-27) and renumbers the deductions for insurance premiums.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The insurer workspace runs on synthetic sample data, not real customers.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The insurer workspace runs the pricing model over a sample portfolio of 500 policyholders: risk mix, loss ratio, premium bands, high-risk cities and applications flagged for review, with a drill-down into every policy.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "The limit is ₹25,000 for you, your spouse and children. Premiums you pay for your parents have a separate limit of ₹25,000, or ₹50,000 if they're 60 or older.": [
+    "backend/src/engine/taxBenefit.ts"
+  ],
+  "The limit is ₹50,000 because a senior citizen is covered.": [
+    "backend/src/engine/taxBenefit.ts"
+  ],
+  "The line on each bar is the industry figure of {pct}.": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "The link may be old, or the page may have moved.": [
+    "frontend/src/pages/NotFound.tsx"
+  ],
+  "The motor base price is a share of the insured declared value (IDV), the most the insurer would pay if the vehicle were stolen or written off.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The NCB belongs to you, not the vehicle, so it moves with you to a new car. A single claim resets it to 0 unless you pay for NCB protection, and it lapses if the policy isn't renewed within 90 days of expiry.": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "The no-claim bonus (NCB) is a discount on the own-damage premium only, never on third-party. It rises with each consecutive claim-free year.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The number of claims is high for the years of driving experience.": [
+    "backend/src/engine/fraudEngine.ts"
+  ],
+  "The number of past accidents is unusually high.": [
+    "backend/src/engine/fraudEngine.ts"
+  ],
+  "The part of each claim you pay yourself": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "The portfolio is synthetic.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "The premium": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The premium starts from a base price for the type of cover and is adjusted by a series of multipliers. For motor, the no-claim bonus then comes off the own-damage part and a fixed third-party amount is added at the end.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The price is checked against the market": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "The price itself uses the average of the male and female rates.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The property value is high relative to the income entered. An insurer may ask for a valuation.": [
+    "backend/src/engine/fraudEngine.ts"
+  ],
+  "The risk score": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The same engine, across a whole book.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "The service is provided as it is. We work to keep figures accurate and sourced, but we can't guarantee them, and we're not responsible for decisions made using them.": [
+    "frontend/src/pages/Terms.tsx"
+  ],
+  "The share of claims the insurer settled in the year, counted by number. A partly paid claim counts as settled, so a high figure doesn't mean every bill was paid in full.": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "The site is available in {en}, {hi}, {mr}, {ta}, {te} and {kn}.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The six preset questions on the Ask page are answered on our server from your estimate.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The structure of your house or flat": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "The total is scaled to a score from 0 to 100.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "The vehicle value entered is far from the usual value for its type and age. Insurers set the IDV themselves, so check this figure.": [
+    "backend/src/engine/fraudEngine.ts"
+  ],
+  "The what-if tool starts from your estimate, so get one first.": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "The workspace shows portfolio analytics on a synthetic sample book. Sign in to open it.": [
+    "frontend/src/pages/insurers/Overview.tsx",
+    "frontend/src/pages/insurers/Policies.tsx",
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "Then go to an insurer or aggregator knowing roughly what you should pay and which questions to ask.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "There's no reliable published range for commercial vehicles. Their premiums depend too much on tonnage, use and route to compare fairly.": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "There's nothing at this address": [
+    "frontend/src/pages/NotFound.tsx"
+  ],
+  "These rates date from 2019.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "They haven't been fitted to real claims data, which isn't publicly available.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "They're broad, directional ranges, not live quotes, and sources differ on whether GST is included.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Thinking": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Third-party cover": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Third-party cover (fixed by IRDAI)": [
+    "backend/src/engine/premiumEngine.ts"
+  ],
+  "This device": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "This email is already linked to a different Google account.": [
+    "backend/src/auth/users.ts"
+  ],
+  "This estimate disappears when you close the tab.": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "This estimate will be saved to your account.": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "This is a general estimate, not tax advice.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "This is a method study on public French motor data (freMTPL2). It doesn't price the Indian estimates elsewhere on this site, whose rules are explained on the Methodology page.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "This is an estimate, not a quote. Insurers price with their own data and medical underwriting.": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "This removes {email}, your saved estimates, recovery codes and sign-in sessions.": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Three or more times a week": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Thyroid": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "to age {age}": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "To work out the saving, the premium including 18% GST is capped at the limit, and tax is calculated under the old-regime slabs for FY 2026-27 with and without the deduction. The saving is the difference.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Too many attempts. Wait a few minutes and try again.": [
+    "backend/src/api/routes/me.ts"
+  ],
+  "Too many codes requested for this email. Try again in an hour.": [
+    "backend/src/auth/otp.ts"
+  ],
+  "Too many incorrect attempts. Request a new code.": [
+    "backend/src/auth/otp.ts"
+  ],
+  "Too many requests. Please slow down.": [
+    "backend/src/server.ts"
+  ],
+  "Too many sign-in attempts. Please wait a few minutes.": [
+    "backend/src/api/routes/auth.ts"
+  ],
+  "Too many wrong codes. Please sign in again.": [
+    "backend/src/auth/mfa.ts"
+  ],
+  "Traffic and theft (motor), flood and quake (home), treatment cost (health)": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Traffic challans": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Traffic violations": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Trains most days": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Translations were drafted with AI assistance using a fixed glossary and are stored with the site, not generated on the fly. Insurance terms such as IDV and NCB are kept in English where that's how they appear on policy documents.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Treatment costs in {city} are above average for the cities this model covers, which changes what a claim costs.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Treatment costs in {city} are around or below average for the cities this model covers, which changes what a claim costs.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Try a change before you make it.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Try the GLM": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Try them": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Tuning: {n} LightGBM settings compared on a validation split inside the training data, with early stopping; {rounds} trees in the final model. Bonus-malus is constrained to only ever raise the prediction.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Turn off": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Turn off two-step verification?": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Turn on": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Turn on two-factor authentication first.": [
+    "backend/src/api/routes/me.ts"
+  ],
+  "Turn on two-step verification": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Two or more claims filed within 30 days of each other.": [
+    "backend/src/engine/fraudEngine.ts"
+  ],
+  "Two-factor authentication is already off.": [
+    "backend/src/api/routes/me.ts"
+  ],
+  "Two-factor authentication is already on.": [
+    "backend/src/api/routes/me.ts"
+  ],
+  "Two-factor secret (encrypted) and recovery codes (hashed)": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Two-step verification": [
+    "frontend/src/pages/Security.tsx",
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Two-wheeler": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Type": [
+    "frontend/src/pages/insurers/Policies.tsx"
+  ],
+  "Type of cover": [
+    "frontend/src/pages/Compare.tsx",
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Typed questions aren't switched on for this site yet. The preset questions above work.": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Typical {low} – {high}": [
+    "frontend/src/components/estimate/BenchmarkBar.tsx"
+  ],
+  "Typical published comprehensive premium range for a hatchback in India. It doesn't adjust for your vehicle's value or city.": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "Typical published comprehensive premium range for a sedan in India. It doesn't adjust for your vehicle's value or city.": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "Typical published comprehensive premium range for a two-wheeler in India. It doesn't adjust for your vehicle's value or city.": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "Typical published comprehensive premium range for an SUV in India. It doesn't adjust for your vehicle's value or city.": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "Typical published comprehensive premium range for this vehicle type in India. It doesn't adjust for your vehicle's value or city.": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "Typical published home-insurance premiums for a property worth around ₹{lakh} lakh.": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "Typical published premiums for an individual plan with ₹5–10 lakh cover.": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "Typical published premiums for family floater plans.": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "Typical published premiums for individual senior-citizen health plans (age 60+).": [
+    "backend/src/engine/marketBenchmark.ts"
+  ],
+  "Under 6 months": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "underweight range": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Unknown device": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Until you delete it": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Until you delete them": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Until you delete your account": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Until you turn it off or delete your account": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Unusual answers an insurer would verify": [
+    "frontend/src/components/estimate/PremiumLedger.tsx"
+  ],
+  "Unusually many previous claims on one property.": [
+    "backend/src/engine/fraudEngine.ts"
+  ],
+  "Up from {pct}%": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Up to ₹1.5 lakh a year, shared with PF, PPF, ELSS and others": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Up to ₹2.5 lakh": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Up to ₹25,000 for self, spouse and children; ₹50,000 if a senior citizen (60+) is covered": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Up to 6 months": [
+    "frontend/src/pages/Methodology.tsx",
+    "shared/src/motor.ts"
+  ],
+  "Use a different email": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Use a whole number.": [
+    "frontend/src/lib/api.ts"
+  ],
+  "Use these answers": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Use your authenticator app instead": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Useful to know before you pay for a tracker.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Validation: 5-fold grouped cross-validation on training data, then one score on the untouched test set.": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Vehicle age": [
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Vehicle and driving": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Vehicle brand": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Vehicle depreciation rates": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Vehicle power": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "Vehicle type": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Vehicle value and no-claim bonus": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Verify": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Very High": [
+    "backend/src/engine/config.ts",
+    "frontend/src/lib/utils.ts"
+  ],
+  "Very high risk": [
+    "frontend/src/components/estimate/RiskMeter.tsx"
+  ],
+  "Very Low": [
+    "backend/src/engine/config.ts",
+    "frontend/src/lib/utils.ts"
+  ],
+  "Very low risk": [
+    "frontend/src/components/estimate/RiskMeter.tsx"
+  ],
+  "Voluntary deductible": [
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Ways to pay less": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "We couldn't send the email just now. Please try again, or continue with Google.": [
+    "backend/src/auth/otp.ts"
+  ],
+  "We don't sell your data or share it with insurers.": [
+    "frontend/src/pages/Terms.tsx"
+  ],
+  "We don't store the text of your AI questions, don't use analytics or advertising trackers, and set a single cookie to keep you signed in.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "We sent a 6-digit code to {email}. It expires in 10 minutes.": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Weekly": [
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Weight": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Weights were set by hand from how Indian insurers describe their rating factors.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "What an insurer may ask about": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "What changes would save me the most money?": [
+    "shared/src/types.ts"
+  ],
+  "What drives the GBM": [
+    "frontend/src/pages/insurers/Model.tsx"
+  ],
+  "What is my biggest risk?": [
+    "shared/src/types.ts"
+  ],
+  "What isn't used": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "What matters most": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "What moves your risk score": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "What should I improve first?": [
+    "shared/src/types.ts"
+  ],
+  "What the service is": [
+    "frontend/src/pages/Terms.tsx"
+  ],
+  "What these don't show": [
+    "frontend/src/pages/Compare.tsx"
+  ],
+  "What this is": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "What to do next": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "What we store and why is described in the": [
+    "frontend/src/pages/Terms.tsx"
+  ],
+  "What would an insurer ask me to prove?": [
+    "frontend/src/pages/estimate/Ask.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "what-if": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "What-if": [
+    "frontend/src/components/shell/AppShell.tsx",
+    "frontend/src/components/shell/Marketing.tsx",
+    "frontend/src/pages/estimate/Estimate.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "What's sent to Gemini": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Where no reliable range exists, as with commercial vehicles, the estimate says so rather than showing one.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Which factor affects me the most?": [
+    "shared/src/types.ts"
+  ],
+  "Why": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Why is my premium above the usual range?": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Why is my premium high?": [
+    "shared/src/types.ts"
+  ],
+  "widowed": [
+    "frontend/src/pages/insurers/PolicyDetail.tsx"
+  ],
+  "With changes": [
+    "frontend/src/pages/estimate/WhatIf.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "With each typed question, Gemini receives your age band (for example 30–34), city, number of dependents, cover details, risk factors, premium breakdown, market range and suggested changes.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "With no declared conditions, you would normally get standard rates.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Within the usual range": [
+    "frontend/src/components/estimate/BenchmarkBar.tsx"
+  ],
+  "Without a security system, burglary risk is higher.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Wood": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Wooden buildings are far more exposed to fire than concrete or brick.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Wooden construction": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Worked out with the depreciation schedule and NCB slabs insurers use for private vehicles.": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "years": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Years in a row without a claim": [
+    "frontend/src/pages/estimate/NewEstimate.tsx",
+    "frontend/src/pages/estimate/WhatIf.tsx"
+  ],
+  "Years of driving": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "You can delete any saved estimate, or your whole account and everything in it, from the": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "You don't have access to this.": [
+    "backend/src/auth/middleware.ts"
+  ],
+  "You don't need an account to get an estimate.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "You pay more of each claim yourself, and the premium drops. Only worth it if you could cover that amount.": [
+    "backend/src/engine/levers.ts"
+  ],
+  "You sign in with a one-time code or Google, and can add an authenticator app for extra security. Keep your email account and recovery codes safe; anyone with access to them can sign in as you. You can delete your account and everything in it at any time from the Security page.": [
+    "frontend/src/pages/Terms.tsx"
+  ],
+  "You're sending questions quickly. Wait a moment and try again.": [
+    "backend/src/api/routes/ai.ts"
+  ],
+  "You've reached today's limit of {n} questions. It resets over the next 24 hours.": [
+    "backend/src/api/routes/ai.ts"
+  ],
+  "Young driver": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Younger age": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Your account": [
+    "frontend/src/pages/Methodology.tsx",
+    "frontend/src/pages/Terms.tsx"
+  ],
+  "Your account will be protected by your email code or Google sign-in only. Enter a code from your authenticator app to confirm.": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Your answers are consistent with each other, so nothing here would stand out to an underwriter.": [
+    "frontend/src/pages/estimate/Estimate.tsx"
+  ],
+  "Your answers are turned into named factors, each worth a number of points.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Your answers become named factors": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Your cover": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Your cover is {x}× your annual income, below the usual 10–15×.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Your cover is {x}× your annual income, below the usual 10–15×. With {n} dependents, that may leave a gap.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Your cover is {x}× your annual income, below the usual 10–15×. With one dependent, that may leave a gap.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Your cover is {x}× your annual income, in line with the usual 10–15×.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Your cover is {x}× your annual income, well above the usual 10–15×. Check whether a lower sum assured would do the same job for less.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Your data": [
+    "frontend/src/pages/Terms.tsx"
+  ],
+  "your estimate": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Your estimate": [
+    "frontend/src/components/shell/AppShell.tsx",
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Your estimate is compared with premium ranges published by insurers and comparison sites.": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Your estimates are private to your account and you can delete them, or the whole account, at any time.": [
+    "frontend/src/pages/SignIn.tsx"
+  ],
+  "Your Google account's email address isn't verified.": [
+    "backend/src/auth/google.ts"
+  ],
+  "Your health": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Your home": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ],
+  "Your job is in the high-risk class.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Your job is in the low-risk class.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Your job is in the medium-risk class.": [
+    "backend/src/engine/factors.ts"
+  ],
+  "Your name": [
+    "frontend/src/pages/Security.tsx",
+    "frontend/src/pages/Welcome.tsx"
+  ],
+  "Your name and when you accepted the terms": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Your no-claim bonus on the own-damage part goes from {from}% to {to}% at the next renewal. Paying for a small repair yourself can be cheaper than losing it.": [
+    "backend/src/engine/levers.ts"
+  ],
+  "Your old codes will stop working. Enter a code from your authenticator app to confirm.": [
+    "frontend/src/pages/Security.tsx"
+  ],
+  "Your premium, line by line.": [
+    "frontend/src/pages/landing/Landing.tsx"
+  ],
+  "Your question": [
+    "frontend/src/pages/estimate/Ask.tsx"
+  ],
+  "Your risk is low ({score}/100), so risk isn't what's driving the {amount}. Most of it comes from the base rate for this cover and the amount insured.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "Your risk is very low ({score}/100), so risk isn't what's driving the {amount}. Most of it comes from the base rate for this cover and the amount insured.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "Your risk profile is high. Several factors are pushing the price up.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Your risk profile is low.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Your risk profile is moderate. A few factors are pushing the price up.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Your risk profile is very high across several areas.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Your risk profile is very low.": [
+    "backend/src/engine/decisionSummary.ts"
+  ],
+  "Your risk score of {score}/100 multiplies the base price by {multiplier}×. The biggest reason is {factor} (+{points} points). Your claim history ({claims}×) and city ({city}×) add to it.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "Your risk score of {score}/100 multiplies the base price by {multiplier}×. The biggest reason is a mix of smaller factors. Your claim history ({claims}×) and city ({city}×) add to it.": [
+    "backend/src/engine/advisor.ts"
+  ],
+  "Your saved estimates": [
+    "frontend/src/pages/Account.tsx"
+  ],
+  "Your saved estimates (answers and results)": [
+    "frontend/src/pages/Methodology.tsx"
+  ],
+  "Your sign-in code is {code}.": [
+    "backend/src/auth/email.ts"
+  ],
+  "Your sign-in code:": [
+    "backend/src/auth/email.ts"
+  ],
+  "Your sign-in timed out. Please start again.": [
+    "backend/src/auth/mfa.ts"
+  ],
+  "Your vehicle": [
+    "frontend/src/pages/estimate/NewEstimate.tsx"
+  ]
+}

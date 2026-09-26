@@ -1,0 +1,15 @@
+node_modules/
+dist/
+*.log
+.env
+backend/dev.db
+backend/dev.db-shm
+backend/dev.db-wal
+ml-service/venv/
+.DS_Store
+backend/.auth-secret
+ml-service/data/
+ml-service/models/gbm.txt
+ml-service/.venv/
+__pycache__/
+.pytest_cache/

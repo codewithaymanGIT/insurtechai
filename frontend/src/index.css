@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Design tokens. Dark is the default theme; light is opt-in from the user menu.
+  Values are HSL channels so Tailwind can apply alpha (bg-fg/5 etc).
+*/
+:root,
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: 220 8% 4%;
+  --bg-subtle: 220 7% 6%;
+  --surface: 220 6% 8%;
+  --surface-2: 220 6% 11%;
+  --surface-3: 220 6% 14%;
+  --border: 220 6% 14%;
+  --border-strong: 220 5% 21%;
+  --fg: 220 10% 95%;
+  --fg-muted: 220 5% 62%;
+  --fg-subtle: 220 4% 43%;
+
+  --accent: 74 88% 58%;
+  --accent-fg: 220 20% 6%;
+  --accent-text: 74 82% 62%;
+
+  --positive: 187 72% 56%;
+  --warning: 40 92% 60%;
+  --danger: 358 78% 64%;
+
+  --risk-1: 187 72% 56%;
+  --risk-2: 200 50% 64%;
+  --risk-3: 40 92% 60%;
+  --risk-4: 22 90% 60%;
+  --risk-5: 358 78% 64%;
+
+  --overlay: 220 20% 2%;
+  --shadow-pop: 0 0 0 1px hsl(var(--border-strong)), 0 12px 32px -8px rgb(0 0 0 / 0.6);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: 0 0% 99%;
+  --bg-subtle: 220 14% 97%;
+  --surface: 0 0% 100%;
+  --surface-2: 220 14% 96%;
+  --surface-3: 220 12% 93%;
+  --border: 220 13% 91%;
+  --border-strong: 220 10% 83%;
+  --fg: 222 22% 8%;
+  --fg-muted: 220 8% 38%;
+  --fg-subtle: 220 6% 55%;
+
+  --accent: 74 86% 50%;
+  --accent-fg: 220 20% 6%;
+  --accent-text: 82 72% 26%;
+
+  --positive: 189 82% 30%;
+  --warning: 34 92% 38%;
+  --danger: 358 70% 46%;
+
+  --risk-1: 189 82% 32%;
+  --risk-2: 204 52% 44%;
+  --risk-3: 36 92% 42%;
+  --risk-4: 20 86% 46%;
+  --risk-5: 358 70% 46%;
+
+  --overlay: 220 20% 10%;
+  --shadow-pop: 0 0 0 1px hsl(var(--border)), 0 12px 32px -8px rgb(16 24 40 / 0.18);
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background: hsl(var(--bg));
+    color: hsl(var(--fg));
+    font-family: "Instrument Sans Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Instrument Sans ships a narrow space; open it slightly for body text. */
+    word-spacing: 0.04em;
+  }
+
+  /* Indian scripts: Latin text and numbers stay in Instrument Sans, the
+     script itself falls through to the matching Noto Sans face. Tighter
+     negative tracking on headings breaks conjuncts, so it's reset. */
+  html[data-script="devanagari"] body { font-family: "Instrument Sans Variable", "Noto Sans Devanagari Variable", sans-serif; }
+  html[data-script="tamil"] body { font-family: "Instrument Sans Variable", "Noto Sans Tamil Variable", sans-serif; }
+  html[data-script="telugu"] body { font-family: "Instrument Sans Variable", "Noto Sans Telugu Variable", sans-serif; }
+  html[data-script="kannada"] body { font-family: "Instrument Sans Variable", "Noto Sans Kannada Variable", sans-serif; }
+  html:not([data-script="latin"]) body { line-height: 1.65; word-spacing: normal; }
+  html:not([data-script="latin"]) h1,
+  html:not([data-script="latin"]) h2,
+  html:not([data-script="latin"]) h3 { letter-spacing: 0 !important; line-height: 1.3 !important; }
+  /* Indic words run long: smaller display headings on phones, and allow a
+     break inside a word rather than overflow the screen. */
+  html:not([data-script="latin"]) h1,
+  html:not([data-script="latin"]) h2 { overflow-wrap: anywhere; }
+  @media (max-width: 639px) {
+    html:not([data-script="latin"]) h1 { font-size: 30px !important; }
+    html:not([data-script="latin"]) h2 { font-size: 24px !important; }
+  }
+  /* Tracking splits Indic clusters apart (eyebrows, mono labels): turn it off. */
+  html:not([data-script="latin"]) body * { letter-spacing: normal !important; }
+  html[data-script="devanagari"] .font-mono { font-family: "JetBrains Mono Variable", "Noto Sans Devanagari Variable", monospace; }
+  html[data-script="tamil"] .font-mono { font-family: "JetBrains Mono Variable", "Noto Sans Tamil Variable", monospace; }
+  html[data-script="telugu"] .font-mono { font-family: "JetBrains Mono Variable", "Noto Sans Telugu Variable", monospace; }
+  html[data-script="kannada"] .font-mono { font-family: "JetBrains Mono Variable", "Noto Sans Kannada Variable", monospace; }
+
+  ::selection {
+    background: hsl(var(--accent) / 0.35);
+    color: hsl(var(--fg));
+  }
+
+  :focus-visible {
+    outline: 2px solid hsl(var(--accent));
+    outline-offset: 2px;
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--border-strong));
+    border: 3px solid hsl(var(--bg));
+    border-radius: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
+@layer utilities {
+  .font-mono,
+  code,
+  pre,
+  kbd {
+    word-spacing: normal;
+  }
+  .num {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+  .shadow-pop {
+    box-shadow: var(--shadow-pop);
+  }
+  /* Faint dot grid used behind the landing hero */
+  .bg-dots {
+    background-image: radial-gradient(hsl(var(--fg) / 0.07) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  /* Fades an element's edges into the page background */
+  .mask-fade-b {
+    mask-image: linear-gradient(to bottom, black 55%, transparent);
+  }
+  .mask-fade-x {
+    mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
